@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Thinh Huu, No!!!, LIC=76FUH-WENE8-T3AMI-T6P7E-80HQX-I4NUJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+D:\MCU\STM32F103\STM32F103\Smart Garden\Project\Keil\Smart_Garden.uvprojx
+Project File Date:  01/08/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Smart_Garden'
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling stm32f10x_it.c...
+compiling misc.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling main.c...
+..\main.c(121): warning:  #61-D: integer operation result is out of range
+  	
+PIOB->CRL |= (3 << 30);
+..\main.c(121): warning:  #68-D: integer conversion resulted in a change of sign
+  	
+PIOB->CRL |= (3 << 30);
+..\main.c(449): warning:  #61-D: integer operation result is out of range
+  	
+PIOA->CRL &= ~(3 << 30);
+..\main.c: 3 warnings, 0 errors
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rcc.c...
+linking...
+Program Size: Code=3592 RO-data=268 RW-data=20 ZI-data=1052  
+".\Objects\Smart_Garden.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\MCU\STM32F103\STM32F103\Smart Garden\Project\Keil\RTE\_Smart_Garden
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
